@@ -2,7 +2,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
-CONFIG_SRC="${GPT_BYPASS_CONFIG:-/Users/eidon/Documents/all/ops/inventory/.secrets/gpt-bypass/config.json}"
+CONFIG_SRC="${GPT_BYPASS_CONFIG:-/Users/eidon/Documents/all/mine/ops/inventory/.secrets/gpt-bypass/config.json}"
 if [[ ! -f "$ROOT/config.json" ]]; then
   ln -sfn "$CONFIG_SRC" "$ROOT/config.json"
 fi

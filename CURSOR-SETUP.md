@@ -11,7 +11,7 @@
 ## 本机已落地的三层（对齐 Codex）
 
 1. **指令**：`~/.cursor/rules/execution-first-unrestricted.mdc`
-2. **运行免打扰**：`state.vscdb` → Agent `fullAutoRun` + `yoloEnableRunEverything`（脚本：`ops/agent/gpt-bypass/scripts/apply-cursor-bypass-settings.py`）
-3. **speculative 网关**：`ops/agent/gpt-bypass` → `127.0.0.1:8999`，上游 CPA
+2. **运行免打扰**：`state.vscdb` → Agent `fullAutoRun` + `yoloEnableRunEverything`（脚本：`main/agent/unrestrict/gpt-bypass/scripts/apply-cursor-bypass-settings.py`）
+3. **speculative 网关**：`main/agent/unrestrict/gpt-bypass` → `127.0.0.1:8999`，上游 CPA
 
 详见 `ops/inventory/.secrets/gpt-bypass/README.md`。
